@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 824058065066583158}
   - component: {fileID: 2736200074783980067}
   m_Layer: 0
-  m_Name: FoldingChair
+  m_Name: LawnChair
   m_TagString: Untagged
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -218,8 +218,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 47829d6281a79f54bbd53a4f8c7075e1, type: 3}
-  m_Resource: {fileID: 8300000, guid: 47829d6281a79f54bbd53a4f8c7075e1, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a6ea36e1336db04489d669de57563934, type: 3}
+  m_Resource: {fileID: 8300000, guid: a6ea36e1336db04489d669de57563934, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

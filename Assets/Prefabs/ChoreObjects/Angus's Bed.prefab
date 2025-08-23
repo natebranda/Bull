@@ -218,8 +218,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 47829d6281a79f54bbd53a4f8c7075e1, type: 3}
-  m_Resource: {fileID: 8300000, guid: 47829d6281a79f54bbd53a4f8c7075e1, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 83a65d0fa3400ea448715fa48d007b75, type: 3}
+  m_Resource: {fileID: 8300000, guid: 83a65d0fa3400ea448715fa48d007b75, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -321,11 +321,9 @@ MonoBehaviour:
     made and ready. I'm tired, but I can\u2019t just lie around all day."
   InteractUI: {fileID: 0}
   audioSourceTouch: {fileID: 7051610116742958348}
-  audioSourceFeel: {fileID: 0}
   chorePrompt: I clumsily grasp at my pillows and know I have found my bed. My sheets
     are cool and welcoming. It's time to sleep.
   choreName: Bed
   choreDuration: 0
   choreAudio: {fileID: 2861262790249252514}
   choreActive: 0
-  playerMovement: {fileID: 0}

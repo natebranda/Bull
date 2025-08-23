@@ -6,14 +6,13 @@ using System.Collections.Generic;
 /// It connects to the chore objects to ensure that time progresses as it 
 /// should and chores that are completed are marked as such.
 /// 
-/// The 8 chores are named and recorded in the remainingChores list as follows:
-///     DailyRoutine
+/// The 7 chores are:
+///     Daily Routine
 ///     Meal
 ///     Telephone
 ///     TV
 ///     Piano
-///     LawnChair
-///     Meal
+///     Lawn Chair
 ///     Bed
 /// 
 /// </summary>

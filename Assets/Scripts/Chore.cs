@@ -50,11 +50,14 @@ public class Chore : Feel, IInteractable
 
     private PlayerMovement playerMovement;
 
+    private InteractionController interactionController;
+
     //Used for initialization
     public void Awake()
     {
         toDo = FindAnyObjectByType<ToDoList>();
         playerMovement = FindAnyObjectByType<PlayerMovement>();
+        interactionController = FindAnyObjectByType<InteractionController>();
     }
 
     public override void Interact()
@@ -127,6 +130,7 @@ public class Chore : Feel, IInteractable
     IEnumerator ChoreSequence()
     {
         playerMovement.enabled = false;
+        interactionController.enabled = false;
         //Reset to disable InteractUI
         base.Reset();
 
@@ -137,5 +141,6 @@ public class Chore : Feel, IInteractable
         yield return new WaitForSeconds(ChoreClip.length);
 
         playerMovement.enabled = true;
+        interactionController.enabled = true;
     }
 }

@@ -31,23 +31,6 @@ public class AudioManager : MonoBehaviour
     //Awake is used for initialization (before the Start method)
     private void Awake()
     {
-        if (instance == null)
-        {
-            //create instance
-            instance = this;
-        }
-        else
-        {
-            //destroy extra instance
-            Destroy(gameObject);
-            //ensure no other code is called before destoying this object
-            return;
-        }
-
-        //ensures that the AudioManager survives between scene transitions
-        //by placing it within the DontDestroyOnLoad scene.
-        DontDestroyOnLoad(gameObject);
-
 
         foreach (Sound s in sounds)
         {
