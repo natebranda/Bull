@@ -30,13 +30,17 @@
 
 <!-- TODO: Give step-by-step setup instructions (clone repo, open Unity, press Play, etc.). -->  
 
+### Controls
+
+<!-- TODO: How do to move around the environment? -->  
+
 ## Features & Systems  
 
-- **Major Systems**  
+### Major Systems
 
 <!-- TODO: List the systems you implemented (e.g., movement, UI system, environment interactions). -->  
 
-- **Technologies Used**  
+### Technologies Utilized
 
 <!-- TODO: List tools, libraries, Unity features, or frameworks you used. -->  
 
