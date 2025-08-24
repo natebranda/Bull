@@ -2,13 +2,13 @@
 
 ## Overview
 
-<!-- TODO: Write a few bullet points about what inspired you to create this project, and how you went about it. -->  
+<!-- TODO: Write a few bullet points about what inspired you to create this project, and how you went about it. -->
 
-## Demo  
+## Demo
 
 ### Gameplay
 
-<!-- TODO: Record a short gameplay video, and embed here. -->  
+<!-- TODO: Record a short gameplay video, and embed here. -->
 
 ![Gameplay Demo](demo.gif)
 
@@ -20,49 +20,49 @@
 
 ![The House](house.png)
 
-## Installation & Setup  
+## Installation & Setup
 
 ### Requirements
 
-<!-- TODO: List required software (Unity version, OS requirements, other tools). -->  
+<!-- TODO: List required software (Unity version, OS requirements, other tools). -->
 
-### Steps  
+### Steps
 
-<!-- TODO: Give step-by-step setup instructions (clone repo, open Unity, press Play, etc.). -->  
+<!-- TODO: Give step-by-step setup instructions (clone repo, open Unity, press Play, etc.). -->
 
 ### Controls
 
-<!-- TODO: How do to move around the environment? -->  
+<!-- TODO: How do to move around the environment? -->
 
-## Features & Systems  
-
-### Major Systems
-
-<!-- TODO: List the systems you implemented (e.g., movement, UI system, environment interactions). -->  
+## Features & Systems
 
 ### Technologies Utilized
 
-<!-- TODO: List tools, libraries, Unity features, or frameworks you used. -->  
+<!-- TODO: List tools, libraries, Unity features, or frameworks you used. -->
 
-## Code Highlights  
+### Systems Implemented
+
+<!-- TODO: List the systems you implemented (e.g., movement, UI system, environment interactions). -->
+
+## Code Highlights
 
 <!-- TOOD: Point reviewers directly to the parts of your code you’re most proud of. -->
 
-- **[File Name](with link)**  
-  - Purpose: <!-- TODO: Describe what this file does. -->  
-  - Challenge: <!-- TODO: Explain a tricky problem you solved here. -->  
+- **[File Name](with link)**
+  - Purpose: <!-- TODO: Describe what this file does. -->
+  - Challenge: <!-- TODO: Explain a tricky problem you solved here. -->
 
-<!-- Repeat for other important files. Example: -->  
+<!-- Repeat for other important files. Example: -->
 
-- [`PlayerController.cs`](Assets/Scripts/PlayerController.cs)  
-  - Purpose: Handles player movement and input.  
-  - Challenge: Worked out smooth acceleration/deceleration physics that feel natural.  
+- [`PlayerController.cs`](Assets/Scripts/PlayerController.cs)
+  - Purpose: Handles player movement and input.
+  - Challenge: Worked out smooth acceleration/deceleration physics that feel natural.
 
-## Roadmap / Future Work  
+## Roadmap / Future Action Items
 
-<!-- TODO: Add a short list of improvements you’d make if you had more time. -->  
+<!-- TODO: Add a short list of improvements you’d make if you had more time. -->
 
-## License  
+## License
 
-<!-- TODO: Pick a license (MIT is usually fine for portfolio projects). -->  
+<!-- TODO: Pick a license (MIT is usually fine for portfolio projects). -->
 
