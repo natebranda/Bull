@@ -38,6 +38,11 @@
 ### Controls
 
 <!-- TODO: How do to move around the environment? -->
++ W is used to step forward.
++ A and D are used to rotate 90 degress left and right respectively.
++ SPACE is used to interact with the object or wall directly in front of you. This produces a text box with a description of said objecgt or wall. 
++ E is used to initiate a chore after you have interacted with a chore object using SPACE.
++ ESCAPE is used to open up the pause menu which allows you to go back to the main menu or to resume the game. Pressing ESCAPE while in the pause menu also resumes the game.
 
 ## Features & Systems
 
@@ -66,7 +71,7 @@
 ## Roadmap / Future Action Items
 
 <!-- TODO: Add a short list of improvements you’d make if you had more time. -->
-* Add multiple days of gameplay wherein Angus's story could genuinely develop into the horror game it is supposed to be. The progression is written, but unfortunately it has not yet been implemented.
+* Create the originally intended seven full days of gameplay wherein the project could genuinely develop into the horror game it is supposed to be. The narrative is written, but unfortunately I did not have the time to build it out.
 * Make a tutorial sequence for the first day where Angus's sister, Sarah, walks you through the basic layout of the house and your objectives for each day.
 * Make a visible todo list in the pause menu that erases chores when they have been completed.
 * Create system for dialogue lines and subtitles for dialogue between Angus and Sarah in the tutorial and for their daily telephone conversations.
@@ -75,4 +80,24 @@
 ## License
 
 <!-- TODO: Pick a license (MIT is usually fine for portfolio projects). -->
+MIT License
 
+Copyright (c) [year] [fullname]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
