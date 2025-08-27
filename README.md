@@ -3,6 +3,11 @@
 ## Overview
 
 <!-- TODO: Write a few bullet points about what inspired you to create this project, and how you went about it. -->
+* I knew I wanted to create a small but distinct Unity project that limited the need to produce visual art so I could instead focus on C# programming and audio design. Thus, I came up with the concept of a newly blinded man trying to take care of himself.
+* I decided to make a game focused more on navigation and exploration rather than combat because I wanted to differentiate it from other projects and avoid having to balance a combat or enemy evasion system. Especially given that this is my first game project.
+* I wanted the game to be simple but to feel open ended and rewarding to explore. This is why I went to the trouble of making audio tracks for each of the chore objects and built out the areas like the basement and office.
+* Growing up in Maine, the oppressive silence of the woods is a feeling I wanted to capture, and so I wanted to create a fairly large space for the player to get lost in. I wanted to give a player the sense that there could be another person with you in that silent darkness who is as of yet hidden from your perception. Unfortunately I was unable to progress far enough to bring Jane, the intruder, into the fold. 
+* I wanted to make the world feel more real than it could with visuals, which is what encouraged me to focus on descriptive writing and sound design along with the step based movement system. Ideally, the player starts to picture their surroundings as they struggle to gradually identify them.
 
 ## Demo
 
@@ -61,6 +66,11 @@
 ## Roadmap / Future Action Items
 
 <!-- TODO: Add a short list of improvements you’d make if you had more time. -->
+* Add multiple days of gameplay wherein Angus's story could genuinely develop into the horror game it is supposed to be. The progression is written, but unfortunately it has not yet been implemented.
+* Make a tutorial sequence for the first day where Angus's sister, Sarah, walks you through the basic layout of the house and your objectives for each day.
+* Make a visible todo list in the pause menu that erases chores when they have been completed.
+* Create system for dialogue lines and subtitles for dialogue between Angus and Sarah in the tutorial and for their daily telephone conversations.
+* Implement a movement system for use with Sarah as an NPC in the tutorial and for Jane, the homeless woman who has been living in Angus's home without him knowing. This system would allow for these characters to trigger footstep sounds while moving accross surfaces.
 
 ## License
 
