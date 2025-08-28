@@ -21,9 +21,12 @@
 
 <!-- TODO: Add relevant screenshots. Show off the world/UX you build -->
 
-#### Screenshot 1
+#### Editor Screenshots
 
-![The House](house.png)
+![Side View of House](Bull%20Screenshots/ProfileHouseEditor.png)
+
+![The House](Bull%20Screenshots/AltViewHouseEditor.png)
+
 
 ## Installation & Setup
 
