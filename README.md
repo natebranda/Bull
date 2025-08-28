@@ -21,11 +21,37 @@
 
 <!-- TODO: Add relevant screenshots. Show off the world/UX you build -->
 
-#### Editor Screenshots
-
-![Side View of House](Bull%20Screenshots/ProfileHouseEditor.png)
+#### View of House in Editor
 
 ![The House](Bull%20Screenshots/AltViewHouseEditor.png)
+
+#### Basement in Editor
+
+![Basement](Bull%20Screenshots/BasementEditor.png)
+
+#### Ground Floor in Editor
+
+![Ground Floor](Bull%20Screenshots/GroundFloorEditor.png)
+
+#### 2nd Floor in Editor
+
+![2nd Floor](Bull%20Screenshots/Floor2Editor.png)
+
+#### In Game UI Example 1
+
+![UIExample1](Bull%20Screenshots/UIText1.png)
+
+#### In Game UI Example 2
+
+![UIExample2](Bull%20Screenshots/UIText2.png)
+
+#### In Game UI Example 3
+
+![UIExample3](Bull%20Screenshots/UIText3.png)
+
+#### In Game Title Screen UI
+
+![Title Screen](Bull%20Screenshots/TitleScreenUI.png)
 
 
 ## Installation & Setup
