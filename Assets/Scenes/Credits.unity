@@ -1275,37 +1275,32 @@ MonoBehaviour:
 
     (Modified: Cut)
 
-    
 
-    TELEPHONE HANG
-    OFF, DIAL, HUNG UP by Tormy -- https://freesound.org/s/788790/ -- License: Attribution
-    4.0
+    TELEPHONE HANG OFF, DIAL,
+    HUNG UP by Tormy -- https://freesound.org/s/788790/ -- License: Attribution 4.0
 
-    (Modified: Cut)
+    (Modified:
+    Cut)
 
-    
 
-    Impact_HitWall.wav by DrMrSir -- https://freesound.org/s/529557/
-    -- License: Attribution 4.0
+    Impact_HitWall.wav by DrMrSir -- https://freesound.org/s/529557/ --
+    License: Attribution 4.0
 
     (Modified: Cut)
 
-    
 
-    Box Lifted and
-    Put Down.wav by 180156 -- https://freesound.org/s/445498/ -- License: Attribution
-    3.0
+    Box Lifted and Put Down.wav
+    by 180156 -- https://freesound.org/s/445498/ -- License: Attribution 3.0
 
-    (Modified: Cut)
+    (Modified:
+    Cut)
 
-    
 
     chain_link_fence.flac by Troutpack -- https://freesound.org/s/590104/
     -- License: Attribution 4.0
 
     (Modified: Cut)
 
-    
 
     Outdoors_Gate_Chain-Clang-Lock-Rattle.wav
     by omnisounddesign -- https://freesound.org/s/336849/ -- License: Attribution
@@ -1313,14 +1308,12 @@ MonoBehaviour:
 
     (Modified: Cut)
 
-    
 
     Metallic Lock Ringing by IESP -- https://freesound.org/s/340012/
     -- License: Attribution 3.0
 
     (Modified: Cut, Pitched)
 
-    
 
     Foliage_Rustling_001.wav
     by duckduckpony -- https://freesound.org/s/204030/ -- License: Attribution 4.0
@@ -1328,23 +1321,19 @@ MonoBehaviour:
     (Modified:
     Cut, Pitched)
 
-    
 
-    Open Closet Door, look through clothes on hangers,
-    closet door by HanulSkyGirl -- https://freesound.org/s/743516/ -- License: Attribution
+    Open Closet Door, look through clothes on hangers, closet
+    door by HanulSkyGirl -- https://freesound.org/s/743516/ -- License: Attribution
     4.0
 
     (Modified: Cut)
 
-    
 
     old_bakelite_telephone_dial_number_5558962.wav
     by magedu -- https://freesound.org/s/352233/ -- License: Attribution 4.0
 
     (Modified:
-    Cut)
-
-'
+    Cut)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1409,7 +1398,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -705.4141, w: -387.64066}
+  m_margin: {x: 0, y: 0, z: -741.5726, w: -536.0738}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
