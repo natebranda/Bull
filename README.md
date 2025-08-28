@@ -14,8 +14,13 @@
 ### Gameplay
 
 <!-- TODO: Record a short gameplay video, and embed here. -->
+#### Gameplay (30 seconds)
 
-![Gameplay Demo](demo.gif)
+![30s Gameplay Demo](Bull%20Screenshots/Basic%20Demo.mp4)
+
+#### Gameplay (90 seconds)
+
+![90s Gameplay Demo](Bull%20Screenshots/Longer%20Demo.mp4)
 
 ### Screenshots
 
