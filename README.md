@@ -13,7 +13,7 @@
 
 ### Gameplay
 
-<!-- TODO: Record a short gameplay video, and embed here. -->
+<!-- TODO: Change shorter video to .gif? -->
 #### Gameplay (30 seconds)
 
 ![30s Gameplay Demo](Bull%20Screenshots/Basic%20Demo.mp4)
@@ -64,10 +64,19 @@
 ### Requirements
 
 <!-- TODO: List required software (Unity version, OS requirements, other tools). -->
+* Unity 6 (Editor Version 6000.0.42f1)
+* Windows 10 version 21H1 (build 19043) or newer or Windows 11 21H2 (build 22000) or newer (Arm64)
+* X64 architecture with SSE2 instruction set support, Arm64
+* DX10, DX11, DX12 or Vulkan capable GPUs
+
+(See also at https://docs.unity3d.com/6000.2/Documentation/Manual/system-requirements.html)
+
+I am as of yet unsure how to export the game as a playable application outside of the Unity Editor. Thus the above requirements are those needed to run the Unity Editor.
 
 ### Steps
 
 <!-- TODO: Give step-by-step setup instructions (clone repo, open Unity, press Play, etc.). -->
+
 
 ### Controls
 
