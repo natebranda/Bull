@@ -63,7 +63,6 @@
 
 ### Requirements
 
-<!-- TODO: List required software (Unity version, OS requirements, other tools). -->
 * Unity 6 (Editor Version 6000.0.42f1)
 * Windows 10 version 21H1 (build 19043) or newer or Windows 11 21H2 (build 22000) or newer (Arm64)
 * X64 architecture with SSE2 instruction set support, Arm64
@@ -98,10 +97,23 @@ NOTE: I am as of yet unsure how to export the game as a playable application out
 ### Technologies Utilized
 
 <!-- TODO: List tools, libraries, Unity features, or frameworks you used. -->
+* Visual Studio
+* Unity Animator
+* UnityEngine
+* TMPro
+* System.Collections.Generic
+* Unity3D
+* Unity Inspector (Unity Inspector 3D sound options)
 
 ### Systems Implemented
 
 <!-- TODO: List the systems you implemented (e.g., movement, UI system, environment interactions). -->
+* Player movement system (stepping, turning)
+* Player interaction system (looking/targeting objects, interacting with objects)
+* Step system (creating floor objects that make their corresponding step sound when walked on)
+* To Do List system (Accounting for both the chores that have been completed and the in game time passed from completing said chores and sequentially activating more chores as needed)
+* Sause Menu
+* Main Menu
 
 ## Code Highlights
 
@@ -120,7 +132,7 @@ NOTE: I am as of yet unsure how to export the game as a playable application out
 ## Roadmap / Future Action Items
 
 <!-- TODO: Add a short list of improvements you’d make if you had more time. -->
-* Create the originally intended seven full days of gameplay wherein the project could genuinely develop into the horror game it is supposed to be. The narrative is written, but unfortunately I did not have the time to build it out.
+* Create the originally intended seven full days of gameplay wherein the game could genuinely develop into the horror game it is supposed to be. The narrative is written, but unfortunately I did not have the time to build it out.
 * Make a tutorial sequence for the first day where Angus's sister, Sarah, walks you through the basic layout of the house and your objectives for each day.
 * Make a visible todo list in the pause menu that erases chores when they have been completed.
 * Create system for dialogue lines and subtitles for dialogue between Angus and Sarah in the tutorial and for their daily telephone conversations.
