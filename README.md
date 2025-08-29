@@ -70,7 +70,7 @@
 
 (See also at https://docs.unity3d.com/6000.2/Documentation/Manual/system-requirements.html)
 
-NOTE: I am as of yet unsure how to export the game as a playable application outside of the Unity Editor. Thus the above requirements refer to what is needed to run the Unity Editor.
+NOTE: I am as of yet unsure how to export the game as a playable application outside of the Unity Editor. Thus the above requirements and below instructions refer to what is needed to run the game within the Unity Editor.
 
 ### Steps
 
