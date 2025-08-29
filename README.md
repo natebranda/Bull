@@ -71,16 +71,22 @@
 
 (See also at https://docs.unity3d.com/6000.2/Documentation/Manual/system-requirements.html)
 
-I am as of yet unsure how to export the game as a playable application outside of the Unity Editor. Thus the above requirements are those needed to run the Unity Editor.
+NOTE: I am as of yet unsure how to export the game as a playable application outside of the Unity Editor. Thus the above requirements refer to what is needed to run the Unity Editor.
 
 ### Steps
 
-<!-- TODO: Give step-by-step setup instructions (clone repo, open Unity, press Play, etc.). -->
+1. Using Git/Github Desktop: Clone this repository to your machine.
+1. In Unity Hub, click the “Add” button and then “Add project from disk”
+1. Find and select your cloned project file and press “Open” to add it to your Unity Hub
+1. Click on the “Bull” project in Unity Hub to open it in the Unity Editor. 
+1. In the Unity Editor, find the “Scenes” folder in the larger “Assets” folder and click to open it. Said files should appear in the “Projects” tab at the bottom of the screen.
+1. Within that folder, select the “Main Menu” scene and double click it to open it in the editor.
+1. Press the play button at the top of the screen to start the game
+1. Finally, maximize the game screen by double clicking the “Game” tab just below the play button to maximize the view of the game. 
 
 
 ### Controls
 
-<!-- TODO: How do to move around the environment? -->
 + W is used to step forward.
 + A and D are used to rotate 90 degress left and right respectively.
 + SPACE is used to interact with the object or wall directly in front of you. This produces a text box with a description of said objecgt or wall. 
