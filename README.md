@@ -120,25 +120,25 @@ NOTE: I am as of yet unsure how to export the game as a playable application out
 
 <!-- TOOD: Point reviewers directly to the parts of your code you’re most proud of. -->
 
-- ['InteractionController.cs'](Assets/Scripts/InteractionController.cs)
+- [`InteractionController.cs`](Assets/Scripts/InteractionController.cs)
   - Purpose: This file allows the player to target objects in the world using a ray cast, which prompt's that surface's Touch sound, and interact with them to bring up that surface's Feel text.
   - Challenge: The key issue with the Interaction Controller was removing the text UI when you looked away from an interactable. Before I fixed the issue, this meant that once you interacted with one object, the UI would never go away. Moreover, this made the UI instantly change its text when you looked at a new interactable rather than more pleasantly fading in the text after being prompted by the player. I solved the problem by saving the last interactable you looked at before updating the currently targeted interactable each frame and then organizing an effective series of if statements to reset the UI when looking away from an object and handle the Player interaction system's other UI related functions. 
 
 <!-- Repeat for other important files. Example: -->
 
 - [`Chore.cs`](Assets/Scripts/Chore.cs)
-  - Purpose: Handles player movement and input.
-  - Challenge: .
+  - Purpose: Attached to Chore Objects to act like a standard interactable and also complete the chore audio cutscene if prompted with an E key input.
+  - Challenge: At first, I had trouble waiting for user input and finding a good place and time to fully freeze the character. I resolved the problem by using IEnumerator functions to wait for player input and subsequently to easily allow me to deactivate and then reactive the player's ability to interact with the world during the audio cutscene itself. 
 
 
 - [`PlayerMovement.cs`](Assets/Scripts/PlayerMovement.cs)
   - Purpose: Handles player movement and input.
-  - Challenge: Worked out smooth acceleration/deceleration physics that feel natural.
+  - Challenge: Initially, I was having the player simply teleport forward exactly 1 unit every step, but this made it very easy for the player to force their way through walls. To resolve this issue, I used the Translate method that comes with Unity to gradually move a full 1 unit step over several frames which prevents you from slipping through walls. 
 
 
- - [`PlayerMovement.cs`](Assets/Scripts/PlayerMovement.cs)
-  - Purpose: Handles player movement and input.
-  - Challenge: Worked out smooth acceleration/deceleration physics that feel natural.
+ - [`ToDoList.cs`](Assets/Scripts/ToDoList.cs)
+  - Purpose: Handles the activation and completion of the seven chores that must be completed to end the day. 
+  - Challenge: I wanted to ensure that certain chores could only be completed after certain conditions were met, while others could be completed in whatever order the character wished or not at all. To do this, I used an list that always contained the chores that were currently available to complete and a second list of the essential chores that had to be completed in order to end the day. Thus, I made a series of four if statetments in the UpdateToDoList method which gradually adds, and thus activates, new chores after certain chores are complete and after certain times are reached. 
 
 
 ## Roadmap / Future Action Items
