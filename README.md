@@ -135,10 +135,9 @@ NOTE: I am as of yet unsure how to export the game as a playable application out
   - Purpose: Handles player movement and input.
   - Challenge: Initially, I was having the player simply teleport forward exactly 1 unit every step, but this made it very easy for the player to force their way through walls. To resolve this issue, I used the Translate method that comes with Unity to gradually move a full 1 unit step over several frames which prevents you from slipping through walls. 
 
-
- - [`ToDoList.cs`](Assets/Scripts/ToDoList.cs)
-  - Purpose: Handles the activation and completion of the seven chores that must be completed to end the day. 
-  - Challenge: I wanted to ensure that certain chores could only be completed after certain conditions were met, while others could be completed in whatever order the character wished or not at all. To do this, I used an list that always contained the chores that were currently available to complete and a second list of the essential chores that had to be completed in order to end the day. Thus, I made a series of four if statetments in the UpdateToDoList method which gradually adds, and thus activates, new chores after certain chores are complete and after certain times are reached. 
+- [`ToDoList.cs`](Assets/Scripts/ToDoList.cs)
+  - Purpose: Handles the activation and completion of the seven chores that must be completed to end the day.
+  - Challenge: I wanted to ensure that certain chores could only be completed after certain conditions were met, while others could be completed in whatever order the character wished or not at all. To do this, I used an list that always contained the chores that were currently available to complete and a second list of the essential chores that had to be completed in order to end the day. Thus, I made a series of four if statetments in the UpdateToDoList method which gradually adds, and thus activates, new chores after specific chores are complete and after certain times are reached. 
 
 
 ## Roadmap / Future Action Items
@@ -155,7 +154,7 @@ NOTE: I am as of yet unsure how to export the game as a playable application out
 <!-- TODO: Pick a license (MIT is usually fine for portfolio projects). -->
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2025] [Nathaniel Branda]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
