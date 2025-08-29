@@ -112,22 +112,34 @@ NOTE: I am as of yet unsure how to export the game as a playable application out
 * Player interaction system (looking/targeting objects, interacting with objects)
 * Step system (creating floor objects that make their corresponding step sound when walked on)
 * To Do List system (Accounting for both the chores that have been completed and the in game time passed from completing said chores and sequentially activating more chores as needed)
-* Sause Menu
+* Dynamic UI System (Screen Text, changing shade of Black Screen when looking at object vs. not)
+* Pause Menu
 * Main Menu
 
 ## Code Highlights
 
 <!-- TOOD: Point reviewers directly to the parts of your code you’re most proud of. -->
 
-- **[File Name](with link)**
-  - Purpose: <!-- TODO: Describe what this file does. -->
-  - Challenge: <!-- TODO: Explain a tricky problem you solved here. -->
+- ['InteractionController.cs'](Assets/Scripts/InteractionController.cs)
+  - Purpose: This file allows the player to target objects in the world using a ray cast, which prompt's that surface's Touch sound, and interact with them to bring up that surface's Feel text.
+  - Challenge: The key issue with the Interaction Controller was removing the text UI when you looked away from an interactable. Before I fixed the issue, this meant that once you interacted with one object, the UI would never go away. Moreover, this made the UI instantly change its text when you looked at a new interactable rather than more pleasantly fading in the text after being prompted by the player. I solved the problem by saving the last interactable you looked at before updating the currently targeted interactable each frame and then organizing an effective series of if statements to reset the UI when looking away from an object and handle the Player interaction system's other UI related functions. 
 
 <!-- Repeat for other important files. Example: -->
 
-- [`PlayerController.cs`](Assets/Scripts/PlayerController.cs)
+- [`Chore.cs`](Assets/Scripts/Chore.cs)
+  - Purpose: Handles player movement and input.
+  - Challenge: .
+
+
+- [`PlayerMovement.cs`](Assets/Scripts/PlayerMovement.cs)
   - Purpose: Handles player movement and input.
   - Challenge: Worked out smooth acceleration/deceleration physics that feel natural.
+
+
+ - [`PlayerMovement.cs`](Assets/Scripts/PlayerMovement.cs)
+  - Purpose: Handles player movement and input.
+  - Challenge: Worked out smooth acceleration/deceleration physics that feel natural.
+
 
 ## Roadmap / Future Action Items
 
